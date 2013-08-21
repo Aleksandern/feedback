@@ -28,17 +28,17 @@ Suppose you have already had a HTML contact form on your site.<br />
 
 
 
-<html>
-<head>
-</head>
-<body>
- <form action="" method="post" enctype="multipart/form-data">
-<input type="text" name="name value="" />
-<input type="text" name="phone" value="" />
-<input  type="submit" value="Submit"/>                
-</form>
-</body>
-</html>
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;form action="" method="post" enctype="multipart/form-data"&gt;
+&lt;input type="text" name="name value="" /&gt;
+&lt;input type="text" name="phone" value="" /&gt;
+&lt;input  type="submit" value="Submit"/&gt;                
+&lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 
 
 
