@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Content-Language" content="en" />
+
+  <title>Feedback</title>
+  <meta name="keywords" content="keywords" />
+  <!--<link rel="stylesheet" href="css/fbRight.css" type="text/css" />-->
+  <link rel="stylesheet" href="css/fbLeft.css" type="text/css" />
+  <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>  
+  <script type="text/javascript" src="js/jquery-ui-1.9.1.custom.min.js"></script>  
+  <script type="text/javascript" src="js/fb.js"></script>  
+
+</head>
+<body>
+
+
+    <div id="fb-block">
+        <a href="javascript:void(0);" id="fb-show"><img src="images/fb_show_emailme_green.gif" border="0" /></a>
+        <div class="fb-form">
+            <form action="submit.php" method="post" enctype="multipart/form-data">
+                <div class="fb-title">Name:</div>
+                <input type="text" name="name" value="" class="sdfsdf" />
+
+                <div class="fb-title">Phone:</div>
+                <input type="text" name="phone" value=""/>
+                
+                <div class="fb-title">E-Mail: <span class="fb-nec">*</span></div>
+                <input type="text" name="email" value=""/>
+
+                <div class="fb-title">Subject: </div>
+                <select name="emailto">
+                    <option value="aleksandern08@gmail.com">Support</option>
+                    <option value="fbexample47@gmail.com">Manager</option>
+                </select>
+                <br/>
+                <div class="fb-title">Text <span class="fb-nec">*</span></div>
+                <textarea name="text"></textarea>
+
+                <br/><br/><br/>
+                <a href="javascript:void(0);" id="fb-button" class="fb-button butt-color">Send!</a>
+                <img src="images/ajax_loader_green.gif" class="fb-ajload" border="0" />
+            </form>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

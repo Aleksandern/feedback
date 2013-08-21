@@ -1,0 +1,219 @@
+/* change size button open/show form */
+#fb-show {
+    height: 120px;    
+    width: 35px;
+}
+
+#fb-block * {
+    text-decoration: none;
+}
+
+#fb-block a { 
+    /*text-align: center;*/
+}
+
+#fb-block {
+    color: #405C60;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 25px;    
+    top: 100px;
+    background: #F7F7F7;
+    border: 1px solid rgba(147, 184, 189,0.8);
+    border-radius: 0px 8px 8px 0px;
+    -moz-border-radius:  0px 8px 8px 0px;
+    -webkit-border-top-left-radius: 0px; 
+    -webkit-border-top-right-radius: 8px; 
+    -webkit-border-bottom-right-radius: 8px; 
+    -webkit-border-bottom-left-radius: 0px;
+
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(215, 220, 220, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(215, 220, 220, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(215, 220, 220, 0.4) inset;
+	-webkit-box-shadow: 5px;
+    width: 300px;
+    min-height: 200px;
+    /*left: -20px;*/
+    left: -310px;
+    z-index: 1000;
+}
+
+#fb-show {
+    position: absolute;
+    display: block;
+    right: -36px;
+    top: 30px;
+    border: 1px green solid;
+    padding-top: 10px;
+
+    background: #F7F7F7;
+    border-left: none;    
+    border-top: 1px solid rgba(147, 184, 189,0.8);
+    border-right: 1px solid rgba(147, 184, 189,0.8);
+    border-bottom: 1px solid rgba(147, 184, 189,0.8);    
+    border-radius: 0px 8px 8px 0px;
+    -moz-border-radius:  0px 8px 8px 0px;
+    -webkit-border-top-left-radius: 0px; 
+    -webkit-border-top-right-radius: 8px; 
+    -webkit-border-bottom-right-radius: 8px; 
+    -webkit-border-bottom-left-radius: 0px;
+
+	-webkit-box-shadow: 1pt 1px 1px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(215, 220, 220, 0.4) inset;
+	   -moz-box-shadow: 1pt 1px 1px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(215, 220, 2206, 0.4) inset;
+	        box-shadow: 1pt 1px 1px rgba(105, 108, 109,  0.7),	0px 0px 8px 25px rgba(215, 220, 220, 0.4) inset;
+	-webkit-box-shadow: 5px;
+}
+
+#fb-block input {
+  outline: none;
+}
+#fb-block input:not([type="checkbox"]), 
+#fb-block textarea:not([type="checkbox"]),
+#fb-block select:not([type="checkbox"])
+{
+    width: 90%;
+    margin-top: 4px;
+    padding: 6px 5px 6px 10px;
+    border: 1px solid #B2B2B2;
+    box-sizing : content-box;
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    transition: all 0.2s linear;
+}
+#fb-block input:not([type="checkbox"]):active,
+#fb-block input:not([type="checkbox"]):focus,
+#fb-block textarea:not([type="checkbox"]):active,
+#fb-block textarea:not([type="checkbox"]):focus,
+#fb-block select:not([type="checkbox"]):active,
+#fb-block select:not([type="checkbox"]):focus
+{
+    border: 1px solid rgba(91, 90, 90, 0.7);
+    background: rgba(238, 236, 240, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+}
+
+#fb-block textarea {
+    height: 80px;  
+    overflow: auto;
+    outline: none;
+}
+
+#fb-block .fb-button {
+font-family: "Arial", "Helvetica", sans-serif;
+font-weight: bold;
+line-height: 1;
+}
+
+#fb-block .fb-button, #fb-block .fb-button:visited {
+    background: #222 url(overlay.png) repeat-x;
+    display: inline-block;
+    padding: 5px 10px 6px;
+    color: #fff;
+    text-decoration: none;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    position: relative;
+    cursor: pointer
+}
+#fb-block .fb-button:active {
+    top:1px;
+}
+
+#fb-block .fb-button, #fb-block .fb-button:visited { 
+    font-size: 14px;
+    padding: 8px 14px 9px; 
+}
+
+#fb-block .fb-button, #fb-block .fb-button:visited { 
+    /*background-color: #91bd09; */
+    background-color: #00b1af;
+}
+
+#fb-block .fb-button:hover { 
+    /*background-color: #749a02; */
+    background-color: #009694; 
+}
+
+#fb-block .fb-form {
+    margin-left: 20px;    
+}
+
+#fb-block .fb-form .fb-title {
+    margin-top: 10px;
+    /*text-shadow: 1px 1px #EFEFEF;*/
+    text-shadow: 1px 1px #cdcdcd;
+}
+
+#fb-block .fb-form .fb-title .fb-nec{
+    color: red;
+}
+
+#fb-block .fb-ajload {
+    display: none;
+}
+
+/* err box begin */
+#fb-block .fb-err {
+    display: none;
+    /*position: relative;*/
+    position: absolute;
+    /*min-width: 0px;  */
+
+}
+
+#fb-block .fb-triangle {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    color: red;
+}
+
+#fb-block .fb-arrow-up {
+  height: 0px;
+  width: 0px;
+  border-left: 10px solid red;
+  border-top: 10px solid transparent;
+
+}
+
+#fb-block .fb-err-text {
+    background: red;
+    color: white;    
+    text-shadow: 1px 0px #cdcdcd;    
+    position: relative;
+    padding: 0px 6px 2px 6px;
+    float:left;
+    border: 1px solid red;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+    
+}
+/* err box end */
+
+#fb-block .fb-captcha {
+    margin-top: 15px;
+}
+#fb-block .fb-captcha .fb-img-captcha {
+
+}
+
+#fb-block .fb-captcha .fb-captcha-rasp {
+    min-height: 72px;
+}
+
+#fb-block .fb-captcha .fb-link-captcha {
+    color: #00b1af;
+    display: block;
+    font-size: 12px;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
