@@ -1,4 +1,4 @@
-<h2>Why FBform?</h2>
+<h2>FBform</h2>
 
 Using FBform you can create a contact form and easily implement it on your site. If your site has already had a contact form, you can use FBform for validation fields and sending messages.<br />
 You can easily customize email template without changing the source code.<br />
