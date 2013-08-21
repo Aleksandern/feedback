@@ -23,7 +23,7 @@ Can be tweaked/modified once purchased if you know the PHP language.<br />
 <h2>How to use</h2>
 Modify an existing form<br />
 Suppose you have already had a HTML contact form on your site.<br />
-<code>
+<pre><code>
 <html>
 <head>
 </head>
@@ -35,7 +35,7 @@ Suppose you have already had a HTML contact form on your site.<br />
 </form>
 </body>
 </html>
-</code>
+</code></pre>
 
 To connect FBform to an existing form, follow these steps:
 1.	Include JS-files
