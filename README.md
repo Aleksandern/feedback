@@ -1,28 +1,29 @@
-<h1>Why FBform?</h1>
+<h2>Why FBform?</h2>
 
-Using FBform you can create a contact form and easily implement it on your site. If your site has already had a contact form, you can use FBform for validation fields and sending messages.
-You can easily customize email template without changing the source code.
-If your server does not support PHP function mail() you can use  FBform to configure  dispatch.
+Using FBform you can create a contact form and easily implement it on your site. If your site has already had a contact form, you can use FBform for validation fields and sending messages.<br />
+You can easily customize email template without changing the source code.<br />
+If your server does not support PHP function mail() you can use  FBform to configure  dispatch.<br />
 
-Features
-Easy to install into any web page
-Multi language UTF-8 ready
-Object oriented PHP code
-Form validation and filtering
-Email template
-jQuery effects
-Captcha
-SMTP support
-CSRF Protection
-Can be easily embedded into a PHP or HTML page
+<h2>Features</h2>
+Easy to install into any web page<br />
+Multi language UTF-8 ready<br />
+Object oriented PHP code<br />
+Form validation and filtering<br />
+Email template<br />
+jQuery effects<br />
+Captcha<br />
+SMTP support<br />
+CSRF Protection<br />
+Can be easily embedded into a PHP or HTML page<br />
 
-Server Requirements
-Supports PHP5 .x (PHP5.2 or higher).
-Can be tweaked/modified once purchased if you know the PHP language.
+<h2>Server Requirements</h2>
+Supports PHP5 .x (PHP5.2 or higher).<br />
+Can be tweaked/modified once purchased if you know the PHP language.<br />
 
-How to use
-Modify an existing form
-Suppose you have already had a HTML contact form on your site.
+<h2>How to use</h2>
+Modify an existing form<br />
+Suppose you have already had a HTML contact form on your site.<br />
+<p>
 <html>
 <head>
 </head>
@@ -34,6 +35,7 @@ Suppose you have already had a HTML contact form on your site.
 </form>
 </body>
 </html>
+</p>
 To connect FBform to an existing form, follow these steps:
 1.	Include JS-files
  fb\js\fb.js
