@@ -23,7 +23,7 @@ Can be tweaked/modified once purchased if you know the PHP language.<br />
 <h2>How to use</h2>
 Modify an existing form<br />
 Suppose you have already had a HTML contact form on your site.<br />
-<p>
+<code>
 <html>
 <head>
 </head>
@@ -35,7 +35,8 @@ Suppose you have already had a HTML contact form on your site.<br />
 </form>
 </body>
 </html>
-</p>
+</code>
+
 To connect FBform to an existing form, follow these steps:
 1.	Include JS-files
  fb\js\fb.js
@@ -47,7 +48,7 @@ Specify file name in the attribute «action» to send the form-data when the form 
 Your code would look like this:
 
 form.html
-
+``
 <html>
 <head>
 <script type="text/javascript" src="/fb/js/jquery-1.8.2.min.js"></script>  
@@ -62,6 +63,7 @@ form.html
 </form>
 </body>
 </html>
+``
 If you need ajax loader icon, add the following code to the form:
 <img src="images/ajax_loader_green.gif" class="fb-ajload" border="0" />
 You can create your own ajax loader icon on this site http://www.ajaxload.info/
